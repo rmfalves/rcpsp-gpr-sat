@@ -39,7 +39,7 @@ The solver takes as input a project instance defined in the PDSL format
 (Project Description Specification Language), a simple scripting language
 specifically designed for this project to describe task durations, precedence
 constraints (covering all four possible types), resource requirements, and the project makespan.  
-For further details about this language, refer to the [PDSL Tutorial](./PDSL_TUTORIAL) 
+For further details about this language, refer to the [PDSL Tutorial](./PDSL_TUTORIAL.md) 
 and the examples provided in the [examples directory](./examples/).
 
 If the instance is feasible for the given makespan, the solver produces a valid schedule as output;
@@ -58,4 +58,5 @@ Their work laid the foundations for much of the SAT research ecosystem.
 
 MiniSAT is distributed under the MIT License,
 and the portions of its code included here remain subject to that license.
+
 
