@@ -1,0 +1,14 @@
+# Project with:
+# 4 activities
+# 5 time units makespan
+# 1 resource
+project 4 5 1
+activity 1 1
+activity 2 2
+activity 3 3
+activity 4 2 
+sequence 3 4 FS
+resource 1 1
+allocate 1 1 1
+allocate 2 1 1
+
